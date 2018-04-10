@@ -134,23 +134,21 @@
       ```
       <object type="text/x-scriptlet" data="import.htm" width=100% height=30></object>
       ```
+   - ##### 3、jQuery对象和DOM对象的互转
 
+     - ***1、DOM对象转jQuery对象***
+
+       ```
+        $(dom对象)----->jQuery对象
+       ```
+
+     - ***2、jQuery对象转DOM对象***
+
+       ```
+        1、var $li = $('li');
+        2、$li.get(0);
+       ```
       ​
-
-
-  - ##### 3、jQuery对象和DOM对象的互转
-
-    - ***1、DOM对象转jQuery对象***
-
-      ```
-      $(dom对象)----->jQuery对象
-      ```
-
-    - ***2、jQuery对象转DOM对象***
-
-      ```
-      1、var $li = $('li');
-      2、$li.get(0);
-      ```
-
-      ​
+- 2018/04/10
+   - 微信小程序 仿美团城市选择 城市切换[https://blog.csdn.net/liguanjie8/article/details/54692576](https://blog.csdn.net/liguanjie8/article/details/54692576)
+ 
